@@ -798,7 +798,7 @@ static SHKFacebook *requestingPermisSHKFacebook=nil;
             rootView.allowSendingEmptyMessage = YES;
             break;
         case SHKShareTypeFile:
-            rootView.text = item.title;
+            rootView.text = item.text;
         default:
             break;
     }
